@@ -1,0 +1,7 @@
+baseURL: "https://bloodreads.com"
+disableHugoGeneratorInject: true
+disableKinds:
+- RSS
+- sitemap
+languageCode: "en-us"
+title: "Putting the Grim in Grimoire"

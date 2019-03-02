@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>BloodReads &mdash; {{ default .Site.Title .Title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ "assets/css/main.css" | relURL }}" />
+		<noscript><link rel="stylesheet" href="{{ "assets/css/noscript.css" | relURL }}" /></noscript>
+    <link rel="icon" href="{{ "images/bloodreads-icon.png" | relURL }}">
+    <meta property="og:image" content="{{ "images/bloodreads-logo-blackbg-margin2.png" | absURL }}"/>
+	</head>
+	<body class="is-preload">
+    {{ block "main" . -}}
+      {{ .Content }}
+    {{ end -}}
+	</body>
+</html>

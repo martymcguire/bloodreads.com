@@ -1,0 +1,13 @@
+[
+  { "icon":"👋","actor":"Ulysses","content":"has joined BloodReads"},
+  { "icon":"📚💨","actor":"Derek","content":"found a collection of dusty books"},
+  { "icon":"⭐","actor":"Beatrice","content":"rated <em>The Tell-Tale Heart</em> 👻👻👻👻👻"},
+  { "icon":"📗","actor":"Derek","content":"began reading <em>The Necronomicon Ex Mortis</em>"},
+  { "icon":"🔖","actor":"Helloise","content":"read Ch. 12 of <em>The Mythical Man-Month</em>"},
+  { "icon":"🤯","actor":"Derek","content":"learned too much from <em>The Necronomicon</em>"},
+  { "icon":"⛔","actor":"Derek","content":"no longer wants to read <em>The Necronomicon</em>"},
+  { "icon":"👀","actor":"Derek","content":"cannot stop reading <em>The Necronomicon</em>"},
+  { "icon":"📙","actor":"Derek","content":"has finished reading <em>The Necronomicon</em>"},
+  { "icon":"🕶","actor":"Derek","content":"has finished reading"},
+  { "icon":"💀","actor":"Derek","content":"has finished 💀"}
+]

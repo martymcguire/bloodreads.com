@@ -4745,3 +4745,16 @@ input, select, textarea {
 .review blockquote:after {
   content:"\201D";
 }
+
+.statuses {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.statuses li {
+  margin-left: 0;
+  padding-left: 0;
+}
+.statuses .actor {
+  font-weight: bold;
+}

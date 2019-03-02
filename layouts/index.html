@@ -22,6 +22,7 @@
           </a>
         </header>
 
+      {{/*
       <!-- Nav 
         <nav id="nav">
           <ul class="links">
@@ -36,31 +37,34 @@
             <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
           </ul>
         </nav>-->
+      */}}
 
       <!-- Main -->
         <div id="main">
 
           <!-- Featured Post -->
-            <article class="post featured" id="2019-ides-show">
+            <article class="post featured h-entry" id="2019-ides-show">
               <header class="major">
-                <span class="date">March 15, 2019</span>
-                <h2><a href="#2019-ides-show">GHOST PARTY 👻🎉<br />
+                <span class="date"><time datetime="2019-03-15">March 15, 2019</time></span>
+                <h2 class="p-name"><a class="u-url" href="{{ .Permalink }}#2019-ides-show">GHOST PARTY 👻🎉<br />
                 IS ON THE &ldquo;ZINE&rdquo;</a></h2>
-                <p>Baltimore's premiere witches' coven is haunting the publishing world.<br />
+                <p class="p-summary">Baltimore's premiere witches' coven is haunting the publishing world.<br />
                 BloodReads members can grab a front row seat to this once-in-a-lifetime<br />
                 zine sales opportunity.</p>
               </header>
-              <a href="https://www.eventbrite.com/e/ghost-party-presents-the-ides-of-march-tickets-57338713636" class="image main"><img src="images/GHOST-PARTY-promo.jpg" alt="GHOST PARTY hosts and loyal acolytes posing in totally sick 80's dance party lighting." /></a>
-              <div class="box">
-                <ul style="list-style-type: none">
-                  <li>GHOST PARTY 👻🎉 presents:<br/><strong>&ldquo;The Ides of March&rdquo;</strong></li>
-                  <li>March 15, 2019 @ 10PM</li>
-                  <li>&mdash; the BIG Theater &mdash;</li>
-                  <li><strong>1727 N. Charles St.</strong></li>
-                </ul>
-                <ul class="actions special">
-                  <li><a href="https://www.eventbrite.com/e/ghost-party-presents-the-ides-of-march-tickets-57338713636" class="button large">🎟 Reserve Your Seats</a></li>
-                </ul>
+              <div class="u-cite h-event">
+                <a href="https://www.eventbrite.com/e/ghost-party-presents-the-ides-of-march-tickets-57338713636" class="image main u-url"><img class="u-photo" src="{{ "images/GHOST-PARTY-promo.jpg" | absURL }}" alt="GHOST PARTY hosts and loyal acolytes posing in totally sick 80's dance party lighting." /></a>
+                <div class="box">
+                  <ul style="list-style-type: none">
+                    <li class="p-title">GHOST PARTY 👻🎉 presents:<br/><strong>&ldquo;The Ides of March&rdquo;</strong></li>
+                    <li><time datetime="2019-03-15T22:00:00-05:00">March 15, 2019 @ 10PM</time></li>
+                    <li>&mdash; The BIG Theater &mdash;</li>
+                    <li class="p-location"><strong>1727 N. Charles St.</strong></li>
+                  </ul>
+                  <ul class="actions special">
+                    <li><a href="https://www.eventbrite.com/e/ghost-party-presents-the-ides-of-march-tickets-57338713636" class="button large">🎟 Reserve Your Seats</a></li>
+                  </ul>
+                </div>
               </div>
             </article>
 

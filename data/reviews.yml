@@ -1,0 +1,19 @@
+---
+- reviewer: "E. Bathory"
+  avatar: "e-bathory.jpg"
+  rating: 1
+  work:
+    author: John Carreyrou
+    cover: "978-1524731656.jpg"
+    isbn: "978-1524731656"
+    title: "Bad Blood: Secrets and Lies in a Silicon Valley Startup"
+  content: "Would not read again - not NEARLY enough blood content, misleading title!!!!."
+- reviewer: "A. Hun"
+  avatar: "a-hun.jpg"
+  rating: 1
+  work:
+    author: Harper Lee
+    cover: "978-0060935467.jpg"
+    isbn: "978-0060935467"
+    title: "To Kill a Mockingbird"
+  content: "mocking birds are small and easy to kill why would there be a whole book about this. nothing like sacking a whole city."

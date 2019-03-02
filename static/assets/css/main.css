@@ -4651,3 +4651,97 @@ input, select, textarea {
 		}
 
 	}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+}
+
+.review {
+  margin-left: -2em;
+  margin-right: -2em;
+  padding: 1em;
+  position: relative;
+}
+
+.review {
+  background-color: rgba(255,122,122,0.1);
+}
+.review:nth-child(2n) {
+  background-color: rgba(255,122,122,0.25);
+}
+
+.review header {
+  display: grid;
+  grid-template-areas: "a b c";
+  grid-template-columns: [avatar-start] 50px [work-start] 1fr [cover-start] 75px;
+  grid-template-rows: 112px;
+  line-height: 1.2;
+}
+
+.review header .reviewer {
+  align-items: flex-start;
+  display: flex;
+  grid-column: avatar-start / cover-start;
+  grid-row: 1 / span 1;
+  flex-direction: row;
+  justify-self: start;
+}
+.review header .reviewer > * {
+  margin-right: 0.5ch;
+}
+.review header .reviewer img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.review header .reviewer .name {
+  font-weight: bold;
+}
+
+.review header .work {
+  grid-column: work-start / grid-end;
+  grid-row: 1 / span 1;
+  display: grid;
+  grid-gap: 1ch;
+  grid-template-areas: "d e";
+  grid-template-columns: 1fr 75px;
+}
+
+.review header .work img {
+  grid-area: e;
+  width: 100%;
+}
+
+.review header .work .work-text-bits {
+  align-self: end;
+  grid-area: d;
+}
+.review header .work cite {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+.review header .work .author {
+  display: inline-block;
+}
+
+.review .rating {
+  grid-area: b;
+  grid-row: 1 / span 1;
+  margin-top: 1.5em;
+}
+
+.review blockquote {
+  border: none;
+  font-size: larger;
+  line-height: 1.6;
+  margin: 1em 0 0;
+  padding: 0;
+  position: relative;
+}
+.review blockquote:before {
+  content:"\201C";
+}
+.review blockquote:after {
+  content:"\201D";
+}
